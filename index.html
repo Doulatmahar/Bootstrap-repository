@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>CSS Layout Float</h1>
+        <p>
+          In this example, we have created a header, two columns/boxes and a
+          footer. On smaller screens, the columns will stack on the top of each
+          other.
+        </p>
+        <p>
+          Resize the browser window to see the responsive effect( you will learn
+          more more about this in next chapter - HTML Responsive.)
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="heading-1">Cities</h1>
+        </div>
+        <div class="col-3">
+          <div class="div-links">
+            <p>
+              <a href="#">London</a>
+              <a href="#">Paris</a>
+              <a href="#">Tokyo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-9">
+            <div class="div-london">
+                <h4>London</h4>
+                <p>London is the capital city of England. It is the most populus city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                <p>Standing on the River Thames, London has the major settlement for two millinnea its history going back to its founding by the romans, Who named it Londinium.</p>
+            </div>
+        </div>
+        <div class="col-12" id="col-12">
+            <h1 class="heading-2">Footer</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

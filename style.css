@@ -1,0 +1,43 @@
+* {
+  padding: 2px;
+}
+.col-12 {
+  background-color: #666666;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-3 {
+  background-color: #ccc;
+  height: auto;
+}
+.col-9 {
+  height: auto;
+}
+#col-12 {
+  background-color: #777;
+  height: 170px;
+}
+.heading-1 {
+  font-size: 60px;
+  color: white;
+}
+.div-links {
+  padding-top: 30px;
+
+  margin-left: 10px;
+}
+.div-links > p > a {
+  display: block;
+  line-height: 15px;
+}
+.div-london {
+  padding-top: 30px;
+
+  margin-left: 10px;
+}
+.heading-2 {
+  font-size: 20px;
+  color: white;
+}
